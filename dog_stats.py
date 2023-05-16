@@ -16,11 +16,11 @@ logger, logname = setup_logger(__file__)
 print("Hello!, We'll ask for three temperatures in Celcius.")
 print()
 
-temp_string_1 = input("Provide a temperature in Celcius: ")
+temp_string_1 = input("Provide a temperature in Celcius:")
 print()
-temp_string_2 = input("Provide a temperature in Celcius: ")
+temp_string_2 = input("Provide a temperature in Celcius:")
 print()
-temp_string_3 = input("Provide a temperature in Celcius: ")
+temp_string_3 = input("Provide a temperature in Celcius:")
 print()
 
 # convert strings to numbers
