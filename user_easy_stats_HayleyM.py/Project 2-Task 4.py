@@ -17,21 +17,21 @@ import turtle
 
 import sys
 
-import maltplotlib
+import matplotlib.pyplot as plt
 
 from util_datafun_logger import setup_logger
 logger, logname = setup_logger(__file__)
 
 "Display Chart of Female Gamers vs in Previous Years. "
 
-country = ['A', 'B', 'C', 'D', 'E']
-gdp_per_capita = [45000, 42000, 52000, 49000, 47000]
+years = ['2017', '2018', '2019', '2020', '2021']
+female_gamers_in_percent = [41, 45, 46, 41, 45]
 
 colors = ['green', 'blue', 'purple', 'brown', 'teal']
-plt.bar(country, gdp_per_capita, color=colors)
-plt.title('Country Vs GDP Per Capita', fontsize=14)
-plt.xlabel('Country', fontsize=14)
-plt.ylabel('GDP Per Capita', fontsize=14)
+plt.bar(years, female_gamers_in_percent, color=colors)
+plt.title('Years Vs Female Gamers Precentage', fontsize=14)
+plt.xlabel('Years', fontsize=14)
+plt.ylabel('Female Gamers Percentage', fontsize=14)
 plt.grid(True)
 plt.show()
 
