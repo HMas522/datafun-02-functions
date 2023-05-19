@@ -1,0 +1,57 @@
+2023-05-15 21:49:46,379 =============================================================
+2023-05-15 21:49:46,379 =============================================================
+2023-05-15 21:49:46,379 Today is 2023-05-15 at 09:49 PM
+2023-05-15 21:49:46,407 This file is running on: nt Windows 10
+2023-05-15 21:49:46,407 The Python version is: 3.11.3
+2023-05-15 21:49:46,407 The active conda environment is:  None
+2023-05-15 21:49:46,407 The active pip environment is:    None
+2023-05-15 21:49:46,407 The active environment path is:   C:\Users\Hayley\AppData\Local\Programs\Python\Python311
+2023-05-15 21:49:46,408 The current working directory is: C:\Users\Hayley\OneDrive\School 2023\GitHub\datafun-02\datafun-02-functions
+2023-05-15 21:49:46,409 This source file is in:           c:\Users\Hayley\OneDrive\School 2023\GitHub\datafun-02\datafun-02-functions
+2023-05-15 21:49:46,409 =============================================================
+2023-05-15 21:49:46,409 =============================================================
+2023-05-15 21:49:46,409 CALLING add_two(5,5)
+2023-05-15 21:49:46,409 RETURNING 10
+2023-05-15 21:49:46,409 CALLING add_triangle_list([5, 5, 5])
+2023-05-15 21:49:46,409 RETURNING 15
+2023-05-15 21:49:46,409 CALLING add_any_using_args((2,))
+2023-05-15 21:49:46,409 RETURNING 2
+2023-05-15 21:49:46,409 CALLING add_any_using_args((2, 2))
+2023-05-15 21:49:46,409 RETURNING 4
+2023-05-15 21:49:46,409 CALLING add_any_using_args((2, 2, 2))
+2023-05-15 21:49:46,409 RETURNING 6
+2023-05-15 21:49:46,409 CALLING add_any_using_args((2, 2, 2, 2))
+2023-05-15 21:49:46,409 RETURNING 8
+2023-05-15 21:49:46,410 CALLING add_any_with_keywords({'a': 8, 'b': 2})
+2023-05-15 21:49:46,410 RETURNING 10
+2023-05-15 21:49:46,410 CALLING add_any_with_keywords({'first': 8, 'second': 2, 'third': 3})
+2023-05-15 21:49:46,410 RETURNING 13
+2023-05-15 21:49:46,410 CALLING add_any_with_keywords({'only': 8})
+2023-05-15 21:49:46,410 RETURNING 8
+2023-05-15 21:49:46,410 CALLING transform_using_keyword_args_with_default_values(input=bearcat, reverse=False)
+2023-05-15 21:49:46,410 RETURNING bearcat
+2023-05-15 21:49:46,410 CALLING transform_using_keyword_args_with_default_values(input=bearcat, reverse=True)
+2023-05-15 21:49:46,410 RETURNING tacraeb
+2023-05-15 21:49:46,410 CALLING transform_using_keyword_args_with_default_values(input=hello, reverse=True)
+2023-05-15 21:49:46,410 RETURNING olleh
+2023-05-15 21:49:46,410 ===========================================================
+2023-05-15 21:49:46,410 Running doctest.testmod() function to unit test our code
+2023-05-15 21:49:46,410 ===========================================================
+2023-05-15 21:49:46,412 CALLING add_two(1,2)
+2023-05-15 21:49:46,412 RETURNING 3
+2023-05-15 21:49:46,413 CALLING add_two(hello, world)
+2023-05-15 21:49:46,413 RETURNING hello world
+2023-05-15 21:49:46,413 CALLING add_triangle_list([3, 4, 5])
+2023-05-15 21:49:46,413 RETURNING 12
+2023-05-15 21:49:46,413 CALLING transform_using_keyword_args_with_default_values(input=bearcat, reverse=False)
+2023-05-15 21:49:46,413 RETURNING bearcat
+2023-05-15 21:49:46,413 CALLING transform_using_keyword_args_with_default_values(input=bearcat, reverse=True)
+2023-05-15 21:49:46,413 RETURNING tacraeb
+2023-05-15 21:49:46,413 CALLING transform_using_keyword_args_with_default_values(input=hello, reverse=True)
+2023-05-15 21:49:46,413 RETURNING olleh
+2023-05-15 21:49:46,413 CALLING add_any_using_args((1, 1, 1, 1, 1, 1, 1, 1))
+2023-05-15 21:49:46,413 RETURNING 8
+2023-05-15 21:49:46,413 CALLING add_any_with_keywords({'a': 1, 'b': 2})
+2023-05-15 21:49:46,413 RETURNING 3
+2023-05-15 21:49:46,418 All tests passed!
+2023-05-15 21:49:46,418 Script complete. More info in the log file.
