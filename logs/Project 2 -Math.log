@@ -1,13 +1,17 @@
-2023-05-19 13:00:55,137 =============================================================
-2023-05-19 13:00:55,137 =============================================================
-2023-05-19 13:00:55,137 Today is 2023-05-19 at 01:00 PM
-2023-05-19 13:00:55,162 This file is running on: nt Windows 10
-2023-05-19 13:00:55,162 The Python version is: 3.11.3
-2023-05-19 13:00:55,162 The active conda environment is:  None
-2023-05-19 13:00:55,162 The active pip environment is:    None
-2023-05-19 13:00:55,162 The active environment path is:   C:\Users\Hayley\AppData\Local\Programs\Python\Python311
-2023-05-19 13:00:55,162 The current working directory is: C:\Users\Hayley\OneDrive\School 2023\GitHub\datafun-02\datafun-02-functions
-2023-05-19 13:00:55,162 This source file is in:           c:\Users\Hayley\OneDrive\School 2023\GitHub\datafun-02\datafun-02-functions\user_math.HayleyM.py
-2023-05-19 13:00:55,162 =============================================================
-2023-05-19 13:00:55,162 =============================================================
-2023-05-19 13:00:59,283 The total area of your video game house is 300.
+2023-05-19 15:30:41,138 =============================================================
+2023-05-19 15:30:41,139 =============================================================
+2023-05-19 15:30:41,139 Today is 2023-05-19 at 03:30 PM
+2023-05-19 15:30:41,139 This file is running on: nt Windows 10
+2023-05-19 15:30:41,140 The Python version is: 3.11.3
+2023-05-19 15:30:41,140 The active conda environment is:  None
+2023-05-19 15:30:41,140 The active pip environment is:    None
+2023-05-19 15:30:41,140 The active environment path is:   C:\Users\Hayley\AppData\Local\Programs\Python\Python311
+2023-05-19 15:30:41,140 The current working directory is: C:\Users\Hayley\OneDrive\School 2023\GitHub\datafun-02\datafun-02-functions
+2023-05-19 15:30:41,141 This source file is in:           c:\Users\Hayley\OneDrive\School 2023\GitHub\datafun-02\datafun-02-functions\user_math.HayleyM.py
+2023-05-19 15:30:41,141 =============================================================
+2023-05-19 15:30:41,141 =============================================================
+2023-05-19 15:30:47,677 The total area of your video game house is 300.
+2023-05-19 15:30:47,677 You hit once for 150 damage, then you hit twice for 100 damage. ([1, 150], [2, 100])
+2023-05-19 15:30:47,677 The total damage done to the monster is 350.
+2023-05-19 15:30:47,678 You slightly move the joystick. The game reads this move as 1.1 radians
+2023-05-19 15:30:47,678 The character moves 63.02535746439056 degrees).
