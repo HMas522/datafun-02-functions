@@ -1,6 +1,9 @@
 '''
 Purpose: Create a class that inherits everything from NumericSeries and adds
-attributes and/or behavior specific to Weather. 
+attributes and/or behavior specific to Weather. '
+
+Author 1: Denise Case
+Author 2: Hayley M
 
 If you don't need to add specialized attributes or behavior, 
 you can just use the original NumericSeries class directly. 
@@ -79,16 +82,16 @@ if __name__ == "__main__":
 
     name1 = "Monday Temperatures"
     units1 = "F"
-    data1 = [55.8, 63.4, 72.4, 78, 76.3]
-    loc = "Maryville MO"
+    data1 = [72.2, 71.9, 69.8, 73.4, 68.8, 70.9, 72.1]
+    loc = "Kansas City MO"
 
     object1 = NumericWeatherSeries(name1, units1, data1, loc)
 
   
     name2 = "Tuesday Temperatures"
     units2 = "F"
-    data2 = [66.2, 67.2, 55.8, 63.4, 72.4, 73.1, 76.3]
-    loc2 = "Maryville MO"
+    data2 = [80.6, 79.7, 83.2, 84.4, 79.5, 78.6, 76.3]
+    loc2 = "Kansas City MO"
 
     object2 = NumericWeatherSeries(name2, units2, data2, loc2)
 
@@ -99,10 +102,10 @@ if __name__ == "__main__":
     # list() converts the range object to a list
     # range() is a generator - it creates a sequence of numbers without storing them in memory
     # The arguments in range are from (inclusive) and to (exclusive)
-    data3 = list(range(66, 79))
+    data3 = list(range(68, 85))
     name3 = "Wednesday Temperatures"
     units3 = "F"
-    loc3 = "Maryville MO"
+    loc3 = "Kansas City MO"
 
     object3 = NumericWeatherSeries(name3, units3, data3, loc3)
 
@@ -126,8 +129,8 @@ if __name__ == "__main__":
     for object in object_list:
         logger.info(object)
         logger.info(f"Count: {object.count()}")
-        logger.info(f"Sum: {object.sum()}")
-        logger.info(f"Mean: {object.mean()}")
+        logger.info(f"Sum: {object.sum():0.2f}")
+        logger.info(f"Mean: {object.mean():0.2f}")
         logger.info(f"Median: {object.median()}")
         logger.info("------------------")
 

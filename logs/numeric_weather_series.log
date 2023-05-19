@@ -1,0 +1,33 @@
+2023-05-19 16:43:47,997 =============================================================
+2023-05-19 16:43:47,997 =============================================================
+2023-05-19 16:43:47,998 Today is 2023-05-19 at 04:43 PM
+2023-05-19 16:43:48,026 This file is running on: nt Windows 10
+2023-05-19 16:43:48,026 The Python version is: 3.11.3
+2023-05-19 16:43:48,026 The active conda environment is:  None
+2023-05-19 16:43:48,026 The active pip environment is:    None
+2023-05-19 16:43:48,026 The active environment path is:   C:\Users\Hayley\AppData\Local\Programs\Python\Python311
+2023-05-19 16:43:48,026 The current working directory is: C:\Users\Hayley\OneDrive\School 2023\GitHub\datafun-02\datafun-02-functions
+2023-05-19 16:43:48,026 This source file is in:           c:\Users\Hayley\OneDrive\School 2023\GitHub\datafun-02\datafun-02-functions\user_easy_stats_HayleyM.py
+2023-05-19 16:43:48,026 =============================================================
+2023-05-19 16:43:48,026 =============================================================
+2023-05-19 16:43:48,026 Created: NumericWeatherSeries with name=Monday Temperatures, units=F, location=Kansas City MO, and 7 data points: [72.2, 71.9, 69.8, 73.4, 68.8, 70.9, 72.1]
+2023-05-19 16:43:48,027 Created: NumericWeatherSeries with name=Tuesday Temperatures, units=F, location=Kansas City MO, and 7 data points: [80.6, 79.7, 83.2, 84.4, 79.5, 78.6, 76.3]
+2023-05-19 16:43:48,027 Created: NumericWeatherSeries with name=Wednesday Temperatures, units=F, location=Kansas City MO, and 17 data points: [68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84]
+2023-05-19 16:43:48,027 NumericWeatherSeries with name=Monday Temperatures, units=F, location=Kansas City MO, and 7 data points: [72.2, 71.9, 69.8, 73.4, 68.8, 70.9, 72.1]
+2023-05-19 16:43:48,027 Count: 7
+2023-05-19 16:43:48,027 Sum: 499.10
+2023-05-19 16:43:48,027 Mean: 71.30
+2023-05-19 16:43:48,027 Median: 71.9
+2023-05-19 16:43:48,027 ------------------
+2023-05-19 16:43:48,027 NumericWeatherSeries with name=Tuesday Temperatures, units=F, location=Kansas City MO, and 7 data points: [80.6, 79.7, 83.2, 84.4, 79.5, 78.6, 76.3]
+2023-05-19 16:43:48,027 Count: 7
+2023-05-19 16:43:48,027 Sum: 562.30
+2023-05-19 16:43:48,027 Mean: 80.33
+2023-05-19 16:43:48,027 Median: 79.7
+2023-05-19 16:43:48,027 ------------------
+2023-05-19 16:43:48,027 NumericWeatherSeries with name=Wednesday Temperatures, units=F, location=Kansas City MO, and 17 data points: [68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84]
+2023-05-19 16:43:48,027 Count: 17
+2023-05-19 16:43:48,027 Sum: 1292.00
+2023-05-19 16:43:48,027 Mean: 76.00
+2023-05-19 16:43:48,027 Median: 76
+2023-05-19 16:43:48,027 ------------------
