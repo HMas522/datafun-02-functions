@@ -38,6 +38,12 @@ print(product)
 
 logger.info(f"The total damage done to the monster is {product}.")
 
+"""Let's say the game input can only understand radians, not degrees. If your character moves 1 radian, how many degrees does your character turn?"""
+#moving the slightly tells the charcter to move. 
+print(math.derees(1.1))
+
+logger.info(f"The character moves {math.degrees(1.1)} degrees).")
+
 
 # Read log file and print it to the terminal
 with open(logname, 'r') as file_wrapper:
