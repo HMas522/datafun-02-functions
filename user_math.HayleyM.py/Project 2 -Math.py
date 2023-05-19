@@ -31,20 +31,23 @@ logger.info(f"The total area of your video game house is {area}.")
 Please input the number of hits and the damanage dealt to get the total damange to the monster """
 
 #list of hits
-arr = [1, 100, 2, 100,]
-print (arr)
+arr1 = [1, 150]
+arr2 = [2, 100]
 #calculate the product
-product = math.prod(arr)
-print(product)
+product1 = math.prod(arr1)
+product2 =math.prod(arr2)
+sum = product1 + product2
+print(sum)
 
-logger.info(f"You hit once for 100 damage, then you hit twice for 100 damage. {arr}")
-logger.info(f"The total damage done to the monster is {product}.")
+logger.info(f"You hit once for 150 damage, then you hit twice for 100 damage. {arr1, arr2}")
+logger.info(f"The total damage done to the monster is {sum}.")
 
 """Let's say the game input can only understand radians, not degrees. If your character moves 1 radian, how many degrees does your character turn?"""
 #moving the slightly tells the charcter to move. 
 print(math.degrees(1.1))
 
-logger.info(f"The character moves {math.degrees(1.1)} degrees).")
+logger.info("You slightly move the joystick. The game reads this move as 1.1 radians")
+logger.info(f"The character moves {math.degrees(1.1)} degrees.")
 
 
 # Read log file and print it to the terminal
