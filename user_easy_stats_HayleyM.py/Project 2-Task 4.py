@@ -19,6 +19,8 @@ import sys
 
 import matplotlib.pyplot as plt
 
+import webbrowser
+
 from util_datafun_logger import setup_logger
 logger, logname = setup_logger(__file__)
 
@@ -35,6 +37,15 @@ plt.ylabel('Female Gamers Percentage', fontsize=14)
 plt.grid(True)
 plt.show()
 
+# ask more
+
+str_response = input("Do you want to learn more about pet statistics? (y/n) ")
+
+if str_response == "y":
+    # import webbrowser at the top of the file
+    webbrowser.open("https://explodingtopics.com/blog/number-of-gamers")
+
+logger.info("Script complete. See log file for details.")
 
 # Read log file and print it to the terminal
 with open(logname, 'r') as file_wrapper:
