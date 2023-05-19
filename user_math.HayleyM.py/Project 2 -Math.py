@@ -32,10 +32,12 @@ Please input the number of hits and the damanage dealt to get the total damange 
 
 #list of hits
 arr = [1, 100, 2, 100,]
+print (arr)
 #calculate the product
 product = math.prod(arr)
 print(product)
 
+logger.info(f"You hit once for 100 damage, then you hit twice for 100 damage. {arr}")
 logger.info(f"The total damage done to the monster is {product}.")
 
 """Let's say the game input can only understand radians, not degrees. If your character moves 1 radian, how many degrees does your character turn?"""
