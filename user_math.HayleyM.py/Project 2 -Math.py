@@ -47,7 +47,7 @@ logger.info(f"The total damage done to the monster is {sum}.")
 print(math.degrees(1.1))
 
 logger.info("You slightly move the joystick. The game reads this move as 1.1 radians")
-logger.info(f"The character moves {math.degrees(1.1)} degrees.")
+logger.info(f"The character moves {math.degrees(1.1):0.2f} degrees.")
 
 
 # Read log file and print it to the terminal
